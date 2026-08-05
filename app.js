@@ -1,1 +1,0 @@
-function toast(text){const t=document.getElementById('toast');t.textContent=text;t.classList.add('show');clearTimeout(window.tt);window.tt=setTimeout(()=>t.classList.remove('show'),1800)}document.getElementById('menu').onclick=()=>toast('Menu principale · in preparazione');
