@@ -1,1 +1,14 @@
-{"name":"SPACE16154","short_name":"SPACE16154","start_url":"./index.html","display":"standalone","background_color":"#080808","theme_color":"#080808","lang":"it","description":"Football Intelligence"}
+{
+  "name": "SPACE16154 — Football Intelligence",
+  "short_name": "SPACE16154",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "description": "Football Intelligence — dashboard e analisi predittiva",
+  "icons": [
+    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
