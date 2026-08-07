@@ -1,0 +1,11 @@
+SPACE16154 V4.3 CORRECTED
+
+- Ripristinata la sezione Analysis nella navigazione inferiore.
+- Dashboard completa mantenuta.
+- Matches: campionato → lista → partita → analisi completa.
+- Le card dei match in evidenza ora sono realmente cliccabili.
+- La schermata dettaglio mantiene confronto dati, forma, indicatori, PPDA, recuperi, assenti, statistiche avanzate e affidabilità.
+- Ripristinata la palette oro per brand, valori chiave, percentuali e indicatori.
+- Hamburger superiore rimosso.
+- Motore Attivo mantenuto.
+- Cache versionata V4.3.
