@@ -33,3 +33,5 @@ function more(){document.querySelector("#main").innerHTML=`<div class="page"><di
 function bind(){document.querySelectorAll("[data-nav]").forEach(b=>b.onclick=()=>route(b.dataset.nav))}
 function route(n){document.body.innerHTML=shell(n);if(n==="dashboard")dashboard();else if(n==="matches")matches();else if(n==="teams")teams();else more()}
 route("dashboard");
+
+
