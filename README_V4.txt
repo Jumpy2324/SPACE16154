@@ -1,17 +1,23 @@
-SPACE16154 — Update V4
+SPACE16154 V4 UPDATE
 
 Modifiche incluse:
-- Top Signals: ora mostrano sempre risultato/pick + probabilità + confidence; Edge solo quando presente.
-- Rimosso l'hamburger superiore.
-- Matches: leghe bianche non selezionate e oro quando selezionate; un solo tap cambia la lega.
-- Match Detail: rimossa la card Forma duplicata.
-- Confidence + Edge: spiegazione unica e più chiara nella sezione Modello.
-- Mantiene il layout e la grafica V3 (nero/oro/verde, crest, bottom navigation).
-- Le voci comuni del confronto non hanno più la "i"; le informazioni restano solo dove aggiungono valore.
-- Corner rinominati "Media Corner".
-- PPDA mantiene la "i".
-- Aggiunti nel mockup i concetti di recupero palla corretto per forza avversaria e pressione nell'ultimo terzo.
-- Nessuna modifica al motore dati reale: i valori restano demo.
+- Nel Match Detail aggiunti i mercati GOL, NO GOL, OVER 2.5 e UNDER 2.5 con percentuali del modello.
+- Confidence e Value/Edge sono raccolti nella sezione Modello, con spiegazioni separate.
+- Top Signals usa il titolo in oro e mostra l'esito, la probabilità, Confidence ed eventuale Edge senza far sembrare Edge una seconda probabilità.
+- Indicatori di controllo nuovamente comparativi MIL/ROM.
+- PPDA mantiene la sola info.
+- Media Corner senza info.
+- Forma con pallini W/D/L + freccia di trend.
+- Forza avversario 1–100.
+- Statistiche avanzate rimosse.
+- xG/tiro mantenuto nel confronto dati.
+- Hamburger superiore rimosso; resta la navigazione inferiore.
+- Selezione leghe: non selezionata bianca, selezionata oro.
 
-Pubblicazione:
-Caricare index.html, app.js e styles.css nella root del repository GitHub Pages.
+File:
+index.html
+app.js
+styles.css
+sw.js
+
+Nota: i valori sono DEMO e non rappresentano quote/dati reali.
