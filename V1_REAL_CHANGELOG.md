@@ -10,3 +10,8 @@ Implemented in actual rendering code:
 - explanations remain in info modal
 - Model Performance block in Analysis
 - existing structure and demo data retained
+
+
+## 4.1.0 functional
+- Pre-03:02 graphics preserved.
+- New model and section architecture implemented.
