@@ -1,0 +1,17 @@
+{
+  "name": "SPACE16154",
+  "short_name": "SPACE16154",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "description": "Football intelligence e analisi dati.",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
