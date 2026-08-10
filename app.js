@@ -1,1 +1,0 @@
-document.querySelectorAll('.info').forEach(b=>b.addEventListener('click',()=>alert('Preview grafica: popup info verrà mantenuto nel pacchetto completo.')));
