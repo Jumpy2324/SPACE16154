@@ -1,7 +1,0 @@
-*{box-sizing:border-box}
-html,body{margin:0;background:#000;min-height:100%;width:100%}
-body{display:flex;justify-content:center;align-items:flex-start;font-family:system-ui,-apple-system,Segoe UI,sans-serif}
-#buildStamp{position:fixed;top:4px;right:6px;z-index:9999;color:#57e389;background:#06120a;border:1px solid #1f5b36;border-radius:5px;padding:3px 5px;font-size:8px;letter-spacing:.04em}
-.replica{width:100%;max-width:1120px;margin:0 auto;background:#000}
-.replica picture,.replica img{display:block;width:100%;height:auto}
-@media(max-width:700px){.replica{max-width:398px;width:100%}}
