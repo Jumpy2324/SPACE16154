@@ -13,3 +13,8 @@
 - Mobile-first layout; no required horizontal scrolling for the main analysis table.
 - SPACE16154 planet/football logo.
 - Cache bumped to v1.2.0 and old cache keys are removed on activation.
+
+
+## 1.3.0-model
+- Functional/model update on top of build #188; base graphics preserved.
+- Real demo calculation pipeline and requested sections implemented.
