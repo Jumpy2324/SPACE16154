@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FOOTBALL16154 Cache Reset</title>
+<style>
+body{margin:0;background:#050505;color:#f1f1f1;font-family:system-ui;display:grid;place-items:center;min-height:100vh;padding:24px;text-align:center}
+.card{max-width:480px;border:1px solid #e7a71a;border-radius:14px;padding:22px;background:#0b0b0c}
+b{color:#e7a71a}small{display:block;color:#999;margin-top:10px}
+</style></head>
+<body><div class="card"><b>FOOTBALL16154</b><h2>Reset cache in corso…</h2><p id="status">Rimozione Service Worker e cache precedenti.</p><small>Build 20260810-0542-reset1</small></div>
+<script>
+(async()=>{
+ let msgs=[];
+ try {
+   if('serviceWorker' in navigator){
+     const regs=await navigator.serviceWorker.getRegistrations();
+     for(const r of regs){ await r.unregister(); }
+     msgs.push('Service Worker rimossi: '+regs.length);
+   }
+   if('caches' in window){
+     const keys=await caches.keys();
+     for(const k of keys){ await caches.delete(k); }
+     msgs.push('Cache eliminate: '+keys.length);
+   }
+   localStorage.clear();
+   sessionStorage.clear();
+   document.getElementById('status').textContent=msgs.join(' · ')+' · Apertura nuova build…';
+   setTimeout(()=>location.replace('./index.html?build=20260810-0542-reset1&nocache='+Date.now()),900);
+ }catch(e){
+   document.getElementById('status').textContent='Reset parziale: '+e.message+'. Apri comunque index.html?build=20260810-0542-reset1';
+ }
+})();
+</script></body></html>
