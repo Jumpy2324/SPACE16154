@@ -1,14 +1,9 @@
-# FOOTBALL16154 V1.1
-Frontend demo mobile-first ricostruito sul mockup concordato.
+# FOOTBALL16154 — Replica misurata
 
-- Bottom nav: Dashboard / Matches / Analysis / Top Signals / More.
-- Nessun login/registrazione per ora.
-- Nessuna News.
-- Formazioni/probabili formazioni nel dettaglio partita.
-- Dettaglio: probabilità, analisi modello, dati tecnici, assenze, informazioni, formazioni; sezioni espandibili al tap.
-- Per ogni match: 1X2, Under/Over 2.5, Gol/No Gol.
-- Sei macroaree del modello.
-- Top Signals dedicato con filtri Tutti / Confidence / Value / Forma Modello.
-- Model Performance in More.
-- Dati demo coerenti e sostituibili in seguito con Sportmonks.
-- Cache versionata V1.1.0.
+Questa preview usa direttamente i ritagli misurati del mockup approvato per eliminare ogni interpretazione grafica.
+
+- Desktop: crop della dashboard principale del mockup.
+- Mobile: crop della dashboard sul telefono presente nello stesso mockup.
+- Nessuna logica applicativa in questa preview: serve esclusivamente a validare la fedeltà visiva 1:1.
+
+Una volta approvata questa base visiva, i singoli blocchi verranno convertiti in HTML/CSS/JS mantenendo le stesse misure e proporzioni.
